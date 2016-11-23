@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "dist": "webpack -p",
-    "postinstall": "npm run dist"
+    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
