@@ -1,6 +1,9 @@
 {
   "name": "react-fundamentals-curriculum",
   "version": "1.0.0",
+  "engines": {
+    "node": "4.1.1"
+  },
   "description": "Curriculum for React.js Program's React Fundamentals course.",
   "main": "index.js",
   "scripts": {
